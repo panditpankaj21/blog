@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/head.ejs') %>
+</head>
+<body class="bg-gray-100 dark-mode">
+  <div>
+    <%- include('./partials/navbar.ejs') %>
+  </div>
+  <h1 class="text-3xl font-bold underline text-red-600">Hello, world panakaj!</h1>
+  <script>
+    function toggleDropdown() {
+        var dropdownMenu = document.getElementById('dropdown-menu');
+        dropdownMenu.classList.toggle('hidden');
+    }
+
+    function toggleMobileMenu() {
+        var mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden');
+    }
+</script>
+</body>
+</html>
